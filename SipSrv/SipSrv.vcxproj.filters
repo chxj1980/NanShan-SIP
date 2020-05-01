@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Consumer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SipService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SipSrv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\libsip\config.cpp">
+      <Filter>acl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\libsip\libsip.cpp">
+      <Filter>acl</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\libsip\librtp.cpp">
+      <Filter>acl</Filter>
+    </ClCompile>
+    <ClCompile Include="SipThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\libsip\BaseSocket.cpp">
+      <Filter>acl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Consumer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SipService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libsip\config.h">
+      <Filter>acl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libsip\libsip.h">
+      <Filter>acl</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libsip\librtp.h">
+      <Filter>acl</Filter>
+    </ClInclude>
+    <ClInclude Include="SipThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\libsip\BaseSocket.h">
+      <Filter>acl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="acl">
+      <UniqueIdentifier>{7d13b4d8-5f67-4dad-be17-7ba0da83dbdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{80de1836-782c-4bc6-abd1-0014e5d0558f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{b3f5d79d-f758-41ba-84c3-0583f9d170d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
